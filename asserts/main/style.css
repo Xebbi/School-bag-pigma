@@ -1,0 +1,207 @@
+/* heebo-300 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../asserts/main/fontsheebo-v22-latin-300.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* heebo-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../asserts/main/fontsheebo-v22-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* heebo-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../asserts/main/fontsheebo-v22-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* heebo-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../asserts/main/fontsheebo-v22-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* heebo-800 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../asserts/main/fontsheebo-v22-latin-800.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: rgba(47, 47, 47, 1);
+} */
+
+
+.txt{
+  margin-top: -70px;
+  margin-left: 90px;
+  color: rgb(211, 46, 237);
+  width: 220px;
+}
+
+
+.card1 {
+  text-align: center;
+  transition: .3 ease;
+}
+
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+  line-height: 30px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.list{
+  background-color: #fff;
+  height: 500px;
+
+}
+.list2{
+  margin-top: -117px;
+}
+.card1 {
+  transition: 0.3 ease;
+  margin-top: 100px;
+
+  border-radius: 30px;
+}
+
+.card1:hover{
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  transition: 0.5 ease;
+
+}
+.text1:hover{
+  margin-top: -20px;
+  box-shadow: 0px 5px 10px rgb(46, 46, 46);
+  border-radius: 30px;
+
+}
+.img1:hover{
+  box-shadow: 0px 5px 10px rgb(46, 46, 46);
+  padding: 10px 20px;
+  margin-top: -20px;
+  border-radius: 30px;
+  border: 1px solid white;
+  
+}
+
+.box{
+  width: 100%;
+  height: 820px;
+}
+
+.box_2{
+  background-color: white;
+  height: 650px;
+  
+}
+
+.cardd2{
+  margin-top: 160px;
+}
+
+.img_c{
+  background-image: url(./img/background\ image.png);
+  width: 849px;
+  height: 565px;
+  margin-top: 42px;
+}
+
+.imgs1{
+  position: relative;
+  right: 250px;
+  bottom: 100px;
+}
+
+.container_our{
+  width: 1146px;
+  height: 1005px;
+  margin-top: 150px;
+}
+
+.img_our{
+  width: 264px;
+  height: 273px;
+  background-color: #FFE1E8;
+  border-radius: 10px ;
+}
+
+.img_r{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1140px;
+  height: 700px;
+  margin-top: 50px;
+}
+
+.container_footer{
+  width: 1600px;
+  height: 370px;
+  margin-top: 100px;
+  background: url(./img/bg.png), url(./img/begk.png);
+}
+
+.footer_text{
+  width: 1150px;
+  height: 180px;
+}
+
+.special{
+  width: 192px;
+  height: 150px;
+  color: white;
+}
+
+.contact{
+  width: 250px;
+  color: white;
+}
+
+.news{
+  width: 264px;
+  height: 175px;
+  color: white;
+
+}
+
